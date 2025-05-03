@@ -1,0 +1,425 @@
+/* Basic Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #4CAF50, #2E8B57); /* Green gradient */
+    /* padding: 20px;
+    text-align: center;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-right: 990px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 950px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+
+.home {
+    background: url(' https://tse2.mm.bing.net/th?id=OIP.6BY91xFY9XHhXCo_YuUENAHaE8&pid=Api&P=0&h=220') no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+
+.home h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.home p {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #f0f0f0;
+}
+
+
+.about {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(to right, #e2f1d5, #f4f4f4); /* Light green gradient */
+/* } */
+
+/* .about h2 {
+    font-size: 36px;
+    color: #2E8B57;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.recipes {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.recipes h2 {
+    font-size: 30px;
+    color: #2E8B57;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.dish-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.dish-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.dish-card img:hover {
+    transform: scale(1.05);
+}
+
+.dish-card h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: green;
+    font-weight: 600;
+}
+
+.read-online {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.read-online:hover {
+    background-color: #4CAF50;
+} */
+
+
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    margin: 15% auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .dish-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .home h2 {
+        font-size: 36px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .about p, .home p {
+        font-size: 16px;
+    }
+
+    .dish-card h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .dish-card img {
+        height: 150px;
+    }
+
+    .home h2 {
+        font-size: 28px;
+    }
+
+    .home p {
+        font-size: 14px;
+    }
+
+    .about h2 {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .read-online {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .logo h1 {
+        font-size: 24px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .home h2 {
+        font-size: 20px;
+    }
+
+    .dish-card h3 {
+        font-size: 18px;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .read-online {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+   */
+   /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 990px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 770px;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    margin-left: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #f4f4f4;
+}
+
+/* Recipes Section */
+.recipes {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.recipes h2 {
+    font-size: 30px;
+    color: #2E8B57;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.dish-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.dish-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dish-card h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: green;
+}
+
+.read-online {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-online:hover {
+    background-color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .dish-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dish-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .dish-card img {
+        height: 150px;
+    }
+}
+
